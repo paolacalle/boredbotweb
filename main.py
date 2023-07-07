@@ -34,7 +34,7 @@ def register():
 @app.route("/update_server", methods=['POST'])
 def webhook():
     if request.method == 'POST':
-        repo = git.Repo('/home/boredbot/boredbot2')
+        repo = git.Repo('/home/boredbotweb/boredbotweb')
         origin = repo.remotes.origin
         origin.pull()
         return 'Updated PythonAnywhere successfully', 200
