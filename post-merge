@@ -1,2 +1,0 @@
- #!/bin/sh
- touch /var/www/boredbot_pythonanywhere_com_wsgi.py
