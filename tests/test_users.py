@@ -1,6 +1,6 @@
 import unittest, sys, os
 
-sys.path.append('../boredwebbot') # imports python file from parent directory
+sys.path.append('../') # imports python file from parent directory
 from main import app, db
 
 class UsersTests(unittest.TestCase):
